@@ -29,9 +29,16 @@ body {
 
     align-items: baseline;
 
-    padding: 4%;
-    border: solid;
+    padding: 2%;
+    border: solid 1px;
     border-color: black;
+    border-radius: 2%;
+
+    transition: all .2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .card--info {
@@ -43,8 +50,13 @@ body {
     border: 0%;
     margin: 0%;
 
-    margin-top: 10%;
+    margin-top: 20%;
     /* margin-top: auto; */
+}
+
+.card--name {
+    padding-bottom: 5%;
+    text-decoration-line: underline;
 }
 
 .card--img {
