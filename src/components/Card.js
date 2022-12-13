@@ -6,10 +6,10 @@ export default function Card(props) {
             <img className="card--img" src={props.img} alt="Photography" />
             <div className="card--descriprion">
                 <ul className="card--info">
-                    <li>Author:{props.author}</li>
                     <li>{props.name}</li>
-                    <li>Year:{props.year}</li>
-                    <li>Location:{props.location}</li>
+                    <li>Author: {props.author}</li>
+                    <li>Year: {props.year}</li>
+                    {/* <li>Location: {props.location}</li> */}
                 </ul>
             </div>
         </div>
