@@ -12,18 +12,16 @@ export default function Gallery() {
                 location='The Art Institute of Chicago'
             />
             <Card
-                img=''
-                author=''
-                name=''
-                year=''
-                location=''
+                img='https://karsh.org/wordpress/wp-content/uploads/2016/10/Yousuf-Karsh-Winston-Churchill-1941-1557x1960.jpg'
+                author='Yousuf Karsh'
+                name='Winston Churchill'
+                year='1941'
             />
             <Card
-                img=''
-                author=''
-                name=''
-                year=''
-                location=''
+                img='https://www.moma.org/media/W1siZiIsIjE5MDQ4MCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MTQ0MFx1MDAzZSJdXQ.jpg?sha=9ffb549956e47173'
+                author='Arnold Newman'
+                name='Igor Stravinsky'
+                year='1946'
             />
         </div>
     )
