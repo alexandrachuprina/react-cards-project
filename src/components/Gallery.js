@@ -23,6 +23,24 @@ export default function Gallery() {
                 name='Igor Stravinsky'
                 year='1946'
             />
+            <Card
+                img='https://capitalculturegallery.com/wp-content/uploads/2020/05/TheRaceBurma2013.jpg'
+                author='Monica Denevan'
+                name='The Race'
+                year='2013'
+            />
+            <Card
+                img='https://capitalculturegallery.com/wp-content/uploads/2020/05/TandemChina2012.jpg'
+                author='Monica Denevan'
+                name='Tandem'
+                year='2007'
+            />
+            <Card
+                img='https://capitalculturegallery.com/wp-content/uploads/2020/05/PendulumBurma2007.jpg'
+                author='Monica Denevan'
+                name='Pendulum'
+                year='2007'
+            />
         </div>
     )
 }
